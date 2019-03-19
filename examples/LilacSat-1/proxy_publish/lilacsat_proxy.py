@@ -127,7 +127,8 @@ class MyForm(QtGui.QMainWindow):
             
     def StartGNURadio(self):
         if os.fork() == 0:
-            os.execvp("gnome-terminal",("gnome-terminal","-x","bash","-c", "/home/lilac/workspace_l1/ftp_server_simulator/Debug/ftp_server_simulator -a20 -s127.0.0.1 -fpacketlog_node4.db"))
+            #os.execvp("gnome-terminal",("gnome-terminal","-x","bash","-c", "/home/lilac/workspace_l1/ftp_server_simulator/Debug/ftp_server_simulator -a20 -s127.0.0.1 -fpacketlog_node4.db"))
+            os.execvp("gnuradio-companion", ("gnuradio-companion","/gr-lilacsat/examples/LilacSat-1/frontend_lilacsat1_rx_rtl.grc", "/gr-lilacsat/examples/LilacSat-1/demod_lilacsat-1.grc"))
     
     
     def SaveData(self):
