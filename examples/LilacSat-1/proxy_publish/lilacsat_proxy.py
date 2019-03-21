@@ -212,7 +212,7 @@ class MyForm(QtGui.QMainWindow):
     def Link_HIT(self):
         webbrowser.open("http://www.hit.edu.cn")
     def Link_Lilac(self):
-        webbrowser.open("http://lilacsat.hit.edu.cn")
+        webbrowser.open("http://lilacsat.hit.edu.cn/lilac_en/Dashboard.html")
     
     def OnTimer(self):
         if self.Proxy_D_LA != None:
