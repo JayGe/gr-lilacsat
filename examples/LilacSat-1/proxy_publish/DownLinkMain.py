@@ -184,7 +184,7 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(_translate("Form", "LilacSat2 Downlink Proxy", None))
+        Form.setWindowTitle(_translate("Form", "LilacSat1 Downlink Proxy", None))
         self.cmd_exit.setText(_translate("Form", "Exit", None))
         self.txt_Name.setText(_translate("Form", "anonymous", None))
         self.txt_Lon.setText(_translate("Form", "126.6402290000", None))
