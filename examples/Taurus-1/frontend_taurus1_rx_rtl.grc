@@ -6,7 +6,7 @@
     <key>options</key>
     <param>
       <key>id</key>
-      <value>frontend_lilacsat1_rx_rtl</value>
+      <value>frontend_taurus1_rx_rtl</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -14,7 +14,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>Frontend LilacSat-1 RX RTL</value>
+      <value>Frontend Taurus-1 RX RTL</value>
     </param>
     <param>
       <key>author</key>

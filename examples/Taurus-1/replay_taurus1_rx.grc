@@ -46,7 +46,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>replay_lilacsat1_rx</value>
+      <value>replay_taurus1_rx</value>
     </param>
     <param>
       <key>max_nouts</key>
@@ -70,7 +70,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>Replay LilacSat-1 RX</value>
+      <value>Replay Taurus-1 RX</value>
     </param>
   </block>
   <block>

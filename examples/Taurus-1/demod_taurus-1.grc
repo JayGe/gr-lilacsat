@@ -6,7 +6,7 @@
     <key>options</key>
     <param>
       <key>id</key>
-      <value>demod_lilacsat1</value>
+      <value>demod_taurus1</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -14,7 +14,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>Demod LilacSat-1</value>
+      <value>Demod Taurus-1</value>
     </param>
     <param>
       <key>author</key>
@@ -22,7 +22,7 @@
     </param>
     <param>
       <key>description</key>
-      <value>LilacSat-1 9600 bps BPSK telemetry demodulator. Tested on GRC 3.7.8.</value>
+      <value>Taurus-1 9600 bps BPSK telemetry demodulator. Tested on GRC 3.7.8.</value>
     </param>
     <param>
       <key>window_size</key>
